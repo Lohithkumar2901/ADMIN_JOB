@@ -1,33 +1,44 @@
-Job Board Application
-A modern job board interface built with Next.js (App Router), Mantine UI, and TypeScript. Users can view, filter, and create job listings through a clean, responsive UI.
+# 🧑‍💼 Job Management Admin Interface
 
-✨ Features
-🧭 Navigation bar with logo, links, login & create job button
+A full-stack Job Management Admin Interface built with **Next.js**, **Mantine UI**, **NestJS**, and **PostgreSQL**. This platform allows administrators to manage job listings with a clean, responsive UI and powerful backend API support.
 
-🔍 Job filtering by title, location, type, and salary range
+## 🚀 Features
 
-💼 Job cards with company logo, position, description, and apply button
+### Frontend (Next.js + Mantine)
+- Responsive design using **Mantine UI**.
+- Filters for job type, location, salary range.
+- Real-time job listing cards with clean layout.
+- Admin dashboard-style home page (not separate route).
+- Built with TypeScript and React Hook Form.
+- Styled as per provided Figma design.
 
-➕ Modal form to create new job listings
+### Backend (NestJS + PostgreSQL)
+- RESTful API with CRUD operations.
+- Job creation, deletion, retrieval.
+- Sequelize ORM for database modeling.
+- Modular structure with DTOs and validation.
 
-⚡ Fully responsive layout with consistent styling
+## 🔧 Tech Stack
 
-🛠️ Tech Stack
-Next.js 14 (App Router)
+| Layer     | Technology       |
+|-----------|------------------|
+| Frontend  | Next.js (App Router) |
+| UI        | Mantine, Tabler Icons |
+| Forms     | React Hook Form  |
+| Backend   | NestJS           |
+| DB        | PostgreSQL + Sequelize |
+| API       | REST             |
+| Styling   | Tailwind & Mantine |
+| Auth      | (Optional) JWT or Auth Guards |
 
-TypeScript
+## 📦 Installation
 
-Mantine UI & Tabler Icons
+### 1. Clone the repo
 
-CSS Modules / Tailwind (optional)
+```bash
+git clone https://github.com/Lohithkumar2901/ADMIN_JOB.git
+cd ADMIN_JOB
 
-No backend – currently uses in-memory state for jobs
-
-🚀 Getting Started
-Clone the repo:
-
-git clone https://github.com/your-username/job-board-app.git
-cd job-board-app
 
 Install dependencies for both backend and frontend seperately:
 
