@@ -12,7 +12,7 @@ export default function Navbar({ onCreateClick }: { onCreateClick: () => void })
 
  
   <Group gap="lg">
-    <Image src="/logo.png" alt="Logo" width={40} height={30} />
+    <Image src="/job.png" alt="Logo" width={40} height={30} />
     <Text fw={600} size="lg" style={{ cursor: 'pointer' }}>
       Find Jobs
     </Text>
